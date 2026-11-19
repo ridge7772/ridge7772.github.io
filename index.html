@@ -1,0 +1,1566 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>xvideos国外片 - 品牌官网,多元影像内容社区</title>
+<meta name="description" content="xvideos国外片官方网站，深耕多元影像内容生态，汇聚全球创作者，提供正版高清原创内容与企业级品牌服务。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23123a6b'/%3E%3Cpath d='M24 18v28l22-14z' fill='%23f2b544'/%3E%3C/svg%3E">
+<style>
+:root{
+  --xv-blue:#123a6b;
+  --xv-blue-deep:#0b2444;
+  --xv-sky:#3f7cbf;
+  --xv-gold:#f2b544;
+  --xv-gold-soft:#ffe6b0;
+  --xv-ink:#15202f;
+  --xv-muted:#5c6b80;
+  --xv-line:#dde5f0;
+  --xv-bg:#f5f8fc;
+  --xv-white:#ffffff;
+  --xv-radius:16px;
+  --xv-shadow:0 10px 30px rgba(18,58,107,.10);
+  --xv-shadow-lg:0 18px 46px rgba(18,58,107,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:132px}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--xv-ink);background:var(--xv-bg);line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.xv-wrap{width:min(1200px,92%);margin:0 auto}
+
+/* 公告条 + 页头吸顶 */
+.xv-sticky-shell{position:sticky;top:0;z-index:120}
+.xv-notice{
+  background:linear-gradient(90deg,var(--xv-blue-deep),var(--xv-blue) 55%,var(--xv-sky));
+  color:#eaf2ff;font-size:13.5px;
+}
+.xv-notice-inner{
+  display:flex;align-items:center;gap:12px;padding:8px 0;
+  flex-wrap:wrap;
+}
+.xv-notice-tag{
+  background:var(--xv-gold);color:#3a2a06;font-weight:700;
+  font-size:12px;padding:2px 10px;border-radius:999px;flex:none;
+  letter-spacing:.5px;
+}
+.xv-notice-text{flex:1;min-width:200px}
+.xv-notice-text b{color:#fff}
+.xv-notice-link{
+  flex:none;font-weight:600;color:var(--xv-gold-soft);
+  border-bottom:1px dashed rgba(255,230,176,.6);padding-bottom:1px;
+  transition:color .2s;
+}
+.xv-notice-link:hover{color:#fff}
+
+.xv-header{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--xv-line);
+  box-shadow:0 4px 18px rgba(18,58,107,.05);
+}
+.xv-header-inner{
+  display:flex;align-items:center;gap:22px;padding:12px 0;
+}
+.xv-logo{display:flex;align-items:center;gap:10px;flex:none}
+.xv-logo-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(135deg,var(--xv-blue),var(--xv-sky));
+  display:grid;place-items:center;box-shadow:0 6px 16px rgba(18,58,107,.28);
+}
+.xv-logo-mark svg{width:20px;height:20px}
+.xv-logo-name{font-size:19px;font-weight:800;letter-spacing:.3px;color:var(--xv-blue-deep)}
+.xv-logo-sub{font-size:11px;color:var(--xv-muted);letter-spacing:1.6px;text-transform:uppercase;display:block;line-height:1.2;font-weight:600}
+
+.xv-nav{display:flex;gap:4px;flex:1;flex-wrap:wrap}
+.xv-nav a{
+  font-size:14.5px;font-weight:600;color:#33475f;
+  padding:7px 12px;border-radius:9px;transition:background .2s,color .2s;
+  white-space:nowrap;
+}
+.xv-nav a:hover,.xv-nav a.xv-active{background:#e8f0fa;color:var(--xv-blue)}
+.xv-header-tools{display:flex;align-items:center;gap:10px;flex:none}
+.xv-search{
+  display:flex;align-items:center;gap:6px;
+  background:#eef3fa;border:1px solid transparent;border-radius:999px;
+  padding:6px 6px 6px 14px;transition:border-color .2s,box-shadow .2s;
+}
+.xv-search:focus-within{border-color:var(--xv-sky);box-shadow:0 0 0 3px rgba(63,124,191,.15);background:#fff}
+.xv-search input{
+  border:none;outline:none;background:transparent;font-size:13.5px;
+  width:150px;color:var(--xv-ink);
+}
+.xv-search button{
+  background:var(--xv-blue);color:#fff;border-radius:999px;
+  font-size:13px;font-weight:600;padding:6px 14px;transition:background .2s;
+}
+.xv-search button:hover{background:var(--xv-blue-deep)}
+.xv-btn-ghost{
+  font-size:14px;font-weight:700;color:var(--xv-blue);
+  border:1.5px solid #c6d8ef;border-radius:999px;padding:7px 16px;white-space:nowrap;
+  transition:.2s;
+}
+.xv-btn-ghost:hover{background:var(--xv-blue);color:#fff;border-color:var(--xv-blue)}
+.xv-burger{
+  display:none;width:42px;height:42px;border-radius:10px;
+  border:1px solid var(--xv-line);background:#fff;place-items:center;
+}
+.xv-burger span{display:block;width:18px;height:2px;background:var(--xv-blue-deep);border-radius:2px;position:relative}
+.xv-burger span::before,.xv-burger span::after{
+  content:"";position:absolute;left:0;width:18px;height:2px;background:var(--xv-blue-deep);border-radius:2px;
+}
+.xv-burger span::before{top:-6px}
+.xv-burger span::after{top:6px}
+
+/* 搜索反馈 */
+.xv-search-feedback{
+  max-width:1200px;width:92%;margin:0 auto;
+  font-size:13px;color:var(--xv-sky);padding:0 0 8px;display:none;
+}
+.xv-search-feedback.xv-show{display:block}
+
+/* 首屏 */
+.xv-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1000px 460px at 88% -10%,rgba(242,181,68,.16),transparent 60%),
+    linear-gradient(160deg,#0d2a4e 0%,#123a6b 48%,#1d5893 100%);
+  color:#eaf2ff;padding:64px 0 72px;
+}
+.xv-hero::after{
+  content:"";position:absolute;inset:auto 0 0 0;height:120px;
+  background:linear-gradient(to bottom,rgba(245,248,252,0),var(--xv-bg));
+  pointer-events:none;
+}
+.xv-hero-grid{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center;position:relative;z-index:2;
+}
+.xv-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);
+  border-radius:999px;padding:5px 14px;font-size:12.5px;font-weight:600;
+  letter-spacing:1px;color:var(--xv-gold-soft);margin-bottom:20px;
+}
+.xv-hero-eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--xv-gold);display:block}
+.xv-hero h1{
+  font-size:clamp(30px,4.4vw,50px);line-height:1.2;font-weight:900;
+  letter-spacing:-.5px;margin-bottom:16px;color:#fff;
+}
+.xv-hero h1 em{
+  font-style:normal;color:var(--xv-gold);
+  background:linear-gradient(transparent 62%,rgba(242,181,68,.28) 62%);
+}
+.xv-hero-lead{font-size:16.5px;color:#c8dbf1;max-width:560px;margin-bottom:22px}
+.xv-hero-brief{
+  font-size:14.5px;line-height:1.9;color:#b4cbe6;
+  border-left:3px solid var(--xv-gold);padding-left:16px;margin-bottom:26px;
+}
+.xv-hero-brief strong{color:#fff}
+.xv-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+.xv-btn-primary{
+  background:var(--xv-gold);color:#3a2a06;font-weight:800;font-size:15px;
+  padding:12px 26px;border-radius:999px;box-shadow:0 10px 24px rgba(242,181,68,.32);
+  transition:transform .2s,box-shadow .2s;display:inline-flex;align-items:center;gap:8px;
+}
+.xv-btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(242,181,68,.42)}
+.xv-btn-outline{
+  border:1.5px solid rgba(255,255,255,.42);color:#fff;font-weight:700;font-size:15px;
+  padding:11px 24px;border-radius:999px;transition:.2s;display:inline-flex;align-items:center;gap:8px;
+}
+.xv-btn-outline:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.xv-hero-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:520px;
+}
+.xv-stat{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);
+  border-radius:14px;padding:12px 14px;
+}
+.xv-stat b{display:block;font-size:22px;font-weight:900;color:var(--xv-gold);line-height:1.2}
+.xv-stat span{font-size:12.5px;color:#b9cfe9}
+
+.xv-hero-visual{position:relative}
+.xv-hero-cover{
+  border-radius:22px;overflow:hidden;box-shadow:0 30px 60px rgba(4,16,32,.5);
+  border:1px solid rgba(255,255,255,.16);position:relative;
+}
+.xv-hero-cover img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.xv-hero-cover-badge{
+  position:absolute;left:14px;top:14px;z-index:2;
+  background:rgba(11,36,68,.82);color:#fff;font-size:12px;font-weight:700;
+  padding:5px 12px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.xv-hero-cover-play{
+  position:absolute;inset:0;display:grid;place-items:center;z-index:2;
+}
+.xv-hero-cover-play i{
+  width:64px;height:64px;border-radius:50%;background:rgba(242,181,68,.94);
+  display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+.xv-hero-cover-play i::after{
+  content:"";display:block;width:0;height:0;
+  border-left:18px solid #2b1d02;border-top:11px solid transparent;border-bottom:11px solid transparent;
+  margin-left:5px;
+}
+.xv-hero-float{
+  position:absolute;right:-8px;bottom:-22px;
+  background:#fff;color:var(--xv-ink);border-radius:14px;padding:12px 16px;
+  box-shadow:var(--xv-shadow-lg);display:flex;align-items:center;gap:10px;
+  font-size:13px;font-weight:600;max-width:240px;
+}
+.xv-hero-float i{
+  width:34px;height:34px;border-radius:10px;background:#e8f0fa;color:var(--xv-blue);
+  display:grid;place-items:center;font-size:16px;flex:none;
+}
+.xv-hero-float small{display:block;color:var(--xv-muted);font-weight:500;font-size:11.5px;line-height:1.4}
+
+/* 通用区块 */
+.xv-section{padding:64px 0}
+.xv-section-alt{background:#fff;border-top:1px solid var(--xv-line);border-bottom:1px solid var(--xv-line)}
+.xv-sec-head{max-width:760px;margin-bottom:36px}
+.xv-sec-kicker{
+  font-size:12.5px;font-weight:800;letter-spacing:2.4px;color:var(--xv-sky);
+  text-transform:uppercase;margin-bottom:10px;display:flex;align-items:center;gap:8px;
+}
+.xv-sec-kicker::before{content:"";width:26px;height:2px;background:var(--xv-gold);display:block}
+.xv-sec-title{font-size:clamp(23px,2.8vw,32px);font-weight:900;color:var(--xv-blue-deep);letter-spacing:-.3px;line-height:1.3}
+.xv-sec-desc{margin-top:10px;font-size:15px;color:var(--xv-muted)}
+
+/* 关于 / 深度解析 */
+.xv-about-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.xv-about-copy p{font-size:15px;color:#3a4b60;margin-bottom:16px}
+.xv-about-copy p strong{color:var(--xv-blue)}
+.xv-about-features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.xv-feature{
+  background:#fff;border:1px solid var(--xv-line);border-radius:12px;padding:14px 16px;
+  box-shadow:0 4px 14px rgba(18,58,107,.04);
+}
+.xv-feature b{display:block;font-size:14.5px;color:var(--xv-blue-deep);margin-bottom:3px}
+.xv-feature span{font-size:12.5px;color:var(--xv-muted);line-height:1.6}
+.xv-about-panel{
+  background:linear-gradient(165deg,#0d2a4e,#17457c);color:#dbe8f8;
+  border-radius:20px;padding:30px;box-shadow:var(--xv-shadow-lg);
+}
+.xv-about-panel h3{color:#fff;font-size:18px;margin-bottom:14px;font-weight:800}
+.xv-about-panel p{font-size:14px;line-height:1.9;color:#b7cde7;margin-bottom:14px}
+.xv-about-list{list-style:none;margin-top:8px}
+.xv-about-list li{
+  font-size:13.5px;color:#c8dbf1;padding:9px 0 9px 22px;position:relative;border-bottom:1px dashed rgba(255,255,255,.14);
+}
+.xv-about-list li:last-child{border-bottom:none}
+.xv-about-list li::before{
+  content:"◆";position:absolute;left:0;color:var(--xv-gold);font-size:10px;top:12px;
+}
+
+/* 焦点视频 */
+.xv-focus-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:22px}
+.xv-video-card{
+  background:#fff;border-radius:var(--xv-radius);overflow:hidden;
+  border:1px solid var(--xv-line);box-shadow:0 4px 16px rgba(18,58,107,.05);
+  transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column;
+}
+.xv-video-card:hover{transform:translateY(-4px);box-shadow:var(--xv-shadow-lg)}
+.xv-video-thumb{position:relative;overflow:hidden;background:#dbe6f2}
+.xv-video-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .4s}
+.xv-video-card:hover .xv-video-thumb img{transform:scale(1.04)}
+.xv-video-thumb .xv-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:50px;height:50px;border-radius:50%;background:rgba(11,36,68,.74);
+  display:grid;place-items:center;transition:background .2s;
+}
+.xv-video-thumb .xv-play::after{
+  content:"";display:block;width:0;height:0;margin-left:3px;
+  border-left:14px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;
+}
+.xv-video-card:hover .xv-play{background:var(--xv-gold)}
+.xv-video-card:hover .xv-play::after{border-left-color:#2b1d02}
+.xv-thumb-tag{
+  position:absolute;left:10px;top:10px;z-index:2;
+  background:rgba(242,181,68,.94);color:#3a2a06;font-size:11.5px;font-weight:800;
+  padding:3px 10px;border-radius:999px;letter-spacing:.4px;
+}
+.xv-thumb-time{
+  position:absolute;right:10px;bottom:10px;z-index:2;
+  background:rgba(11,36,68,.82);color:#fff;font-size:11.5px;font-weight:600;
+  padding:2px 8px;border-radius:6px;
+}
+.xv-video-body{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+.xv-video-body h3{font-size:16px;font-weight:800;color:var(--xv-blue-deep);line-height:1.45;margin-bottom:6px}
+.xv-video-body p{font-size:13px;color:var(--xv-muted);line-height:1.7;margin-bottom:12px;flex:1}
+.xv-video-meta{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  font-size:12px;color:#7f8ea3;margin-bottom:12px;
+}
+.xv-video-meta .xv-author{font-weight:700;color:var(--xv-sky)}
+.xv-video-actions{display:flex;gap:8px;flex-wrap:wrap;border-top:1px solid #eef3fa;padding-top:12px}
+.xv-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:600;
+  color:#5c6b80;background:#f1f6fc;border-radius:999px;padding:5px 11px;transition:.2s;
+}
+.xv-act:hover{background:#e2edfa;color:var(--xv-blue)}
+.xv-act.xv-on{background:#fff1d4;color:#8a5b05}
+.xv-act svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}
+.xv-act.xv-on svg{fill:currentColor;stroke:currentColor}
+
+.xv-focus-side{display:grid;grid-template-columns:1fr;gap:18px}
+.xv-mini{
+  display:grid;grid-template-columns:130px 1fr;gap:14px;background:#fff;
+  border:1px solid var(--xv-line);border-radius:14px;padding:12px;
+  transition:transform .22s,box-shadow .22s;align-items:center;
+}
+.xv-mini:hover{transform:translateY(-3px);box-shadow:var(--xv-shadow)}
+.xv-mini .xv-video-thumb{border-radius:10px}
+.xv-mini .xv-video-thumb img{aspect-ratio:16/10}
+.xv-mini .xv-play{width:34px;height:34px}
+.xv-mini .xv-play::after{border-left-width:10px;border-top-width:7px;border-bottom-width:7px}
+.xv-mini-txt h4{font-size:14px;font-weight:800;color:var(--xv-blue-deep);line-height:1.45;margin-bottom:4px}
+.xv-mini-txt span{font-size:12px;color:var(--xv-muted)}
+
+/* 视频流 */
+.xv-stream{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+.xv-filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.xv-chip{
+  font-size:13px;font-weight:700;color:#4a5c73;background:#eef3fa;
+  border-radius:999px;padding:6px 15px;transition:.2s;border:1px solid transparent;
+}
+.xv-chip:hover{background:#e0ebf8;color:var(--xv-blue)}
+.xv-chip.xv-on{background:var(--xv-blue);color:#fff;box-shadow:0 6px 16px rgba(18,58,107,.25)}
+
+/* 专题 */
+.xv-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.xv-topic{
+  position:relative;border-radius:18px;overflow:hidden;min-height:230px;
+  display:flex;align-items:flex-end;padding:22px;color:#fff;
+  box-shadow:var(--xv-shadow);transition:transform .25s;
+}
+.xv-topic:hover{transform:translateY(-4px)}
+.xv-topic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.xv-topic::after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to top,rgba(6,20,38,.88),rgba(6,20,38,.18) 60%,transparent);
+}
+.xv-topic-txt{position:relative;z-index:2}
+.xv-topic-txt b{font-size:17px;font-weight:800;display:block;margin-bottom:6px;line-height:1.4}
+.xv-topic-txt p{font-size:12.5px;color:#c8dbf1;line-height:1.6;margin-bottom:8px}
+.xv-topic-status{
+  display:inline-block;font-size:11px;font-weight:700;background:rgba(242,181,68,.94);
+  color:#3a2a06;padding:2px 10px;border-radius:999px;
+}
+
+/* 创作者 */
+.xv-creators{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.xv-creator{
+  background:#fff;border:1px solid var(--xv-line);border-radius:16px;padding:22px 18px;
+  text-align:center;transition:transform .22s,box-shadow .22s;
+}
+.xv-creator:hover{transform:translateY(-4px);box-shadow:var(--xv-shadow-lg)}
+.xv-avatar{
+  width:64px;height:64px;border-radius:50%;margin:0 auto 12px;
+  display:grid;place-items:center;font-size:22px;font-weight:900;color:#fff;
+  box-shadow:0 6px 16px rgba(18,58,107,.18);
+}
+.xv-creator h3{font-size:15.5px;font-weight:800;color:var(--xv-blue-deep);margin-bottom:3px}
+.xv-creator .xv-domain{font-size:12px;color:var(--xv-sky);font-weight:700;margin-bottom:8px;display:block}
+.xv-creator p{font-size:12.5px;color:var(--xv-muted);line-height:1.65;min-height:60px}
+.xv-creator-stats{display:flex;justify-content:center;gap:14px;margin-top:10px;border-top:1px dashed #e2eaf4;padding-top:10px}
+.xv-creator-stats span{font-size:11.5px;color:var(--xv-muted)}
+.xv-creator-stats b{display:block;font-size:14px;color:var(--xv-blue);font-weight:800}
+
+/* 影像墙 */
+.xv-wall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.xv-wall-item{
+  position:relative;border-radius:14px;overflow:hidden;box-shadow:0 4px 14px rgba(18,58,107,.07);
+  transition:transform .25s;background:#22364f;
+}
+.xv-wall-item:hover{transform:scale(1.02)}
+.xv-wall-item img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1}
+.xv-wall-item.xv-tall{grid-row:span 2}
+.xv-wall-item.xv-tall img{aspect-ratio:1/2.1}
+.xv-wall-item.xv-wide{grid-column:span 2}
+.xv-wall-item.xv-wide img{aspect-ratio:2.1/1}
+.xv-wall-cap{
+  position:absolute;left:0;right:0;bottom:0;padding:10px 12px;
+  background:linear-gradient(to top,rgba(6,20,38,.85),transparent);
+  color:#fff;font-size:12px;font-weight:600;
+}
+
+/* 评价 */
+.xv-reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.xv-review{
+  background:#fff;border:1px solid var(--xv-line);border-radius:16px;padding:20px;
+  position:relative;transition:box-shadow .22s;
+}
+.xv-review:hover{box-shadow:var(--xv-shadow)}
+.xv-review::before{
+  content:"“";position:absolute;right:16px;top:6px;font-size:52px;
+  color:#e3edf9;font-family:Georgia,serif;line-height:1;pointer-events:none;
+}
+.xv-review-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.xv-review-head .xv-avatar{width:38px;height:38px;font-size:15px;margin:0}
+.xv-review-head b{font-size:13.5px;color:var(--xv-blue-deep);display:block}
+.xv-review-head span{font-size:11.5px;color:var(--xv-muted)}
+.xv-review p{font-size:13.5px;color:#3a4b60;line-height:1.8;position:relative;z-index:1}
+
+/* 动态 */
+.xv-news{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.xv-news-item{
+  display:grid;grid-template-columns:auto 1fr;gap:16px;
+  background:#fff;border:1px solid var(--xv-line);border-radius:14px;padding:18px 20px;
+  transition:border-color .2s,box-shadow .2s;
+}
+.xv-news-item:hover{border-color:#c9dcf3;box-shadow:var(--xv-shadow)}
+.xv-news-date{
+  text-align:center;background:#eef4fb;border-radius:10px;padding:8px 12px;height:fit-content;
+}
+.xv-news-date b{display:block;font-size:19px;font-weight:900;color:var(--xv-blue);line-height:1.1}
+.xv-news-date span{font-size:11px;color:var(--xv-muted)}
+.xv-news-item h3{font-size:14.5px;font-weight:800;color:var(--xv-blue-deep);margin-bottom:4px}
+.xv-news-item p{font-size:12.5px;color:var(--xv-muted);line-height:1.7}
+
+/* FAQ */
+.xv-faq{max-width:860px;margin:0 auto}
+.xv-faq details{
+  background:#fff;border:1px solid var(--xv-line);border-radius:12px;
+  margin-bottom:12px;overflow:hidden;transition:box-shadow .2s;
+}
+.xv-faq details[open]{box-shadow:var(--xv-shadow);border-color:#c9dcf3}
+.xv-faq summary{
+  list-style:none;cursor:pointer;padding:16px 20px;font-size:14.5px;font-weight:700;
+  color:var(--xv-blue-deep);display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.xv-faq summary::-webkit-details-marker{display:none}
+.xv-faq summary::after{
+  content:"+";font-size:20px;font-weight:400;color:var(--xv-sky);
+  transition:transform .2s;flex:none;line-height:1;
+}
+.xv-faq details[open] summary::after{content:"−";transform:rotate(180deg)}
+.xv-faq p{font-size:13.5px;color:var(--xv-muted);padding:0 20px 18px;line-height:1.85}
+
+/* 联系 */
+.xv-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.xv-contact-card{
+  background:linear-gradient(160deg,#0d2a4e,#17457c);border-radius:20px;
+  padding:34px;color:#dbe8f8;box-shadow:var(--xv-shadow-lg);
+}
+.xv-contact-card h3{color:#fff;font-size:20px;font-weight:900;margin-bottom:8px}
+.xv-contact-card p{font-size:14px;color:#b7cde7;margin-bottom:20px;line-height:1.8}
+.xv-contact-row{
+  display:flex;align-items:center;gap:10px;font-size:13.5px;color:#d4e3f5;
+  padding:10px 0;border-bottom:1px dashed rgba(255,255,255,.15);
+}
+.xv-contact-row:last-child{border-bottom:none}
+.xv-contact-row b{color:var(--xv-gold);font-weight:800;flex:none;min-width:64px}
+.xv-contact-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.xv-partners{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.xv-partner{
+  background:#fff;border:1px solid var(--xv-line);border-radius:10px;
+  padding:10px 16px;font-size:13px;font-weight:700;color:#4a5c73;
+}
+
+/* 页脚 */
+.xv-footer{
+  background:#0b1d33;color:#8ea8c6;padding:52px 0 26px;font-size:13.5px;
+}
+.xv-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;padding-bottom:34px;border-bottom:1px solid rgba(255,255,255,.1)}
+.xv-footer-brand .xv-logo-name{color:#fff}
+.xv-footer-brand p{margin-top:12px;line-height:1.9;max-width:300px;color:#7f9bbd}
+.xv-footer h4{color:#fff;font-size:14.5px;margin-bottom:14px;font-weight:800}
+.xv-footer ul{list-style:none}
+.xv-footer li{margin-bottom:9px}
+.xv-footer li a{transition:color .2s;color:#8ea8c6}
+.xv-footer li a:hover{color:var(--xv-gold)}
+.xv-footer-bottom{
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+  padding-top:22px;font-size:12.5px;color:#67839f;
+}
+
+/* 回到顶部 */
+.xv-top{
+  position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;
+  background:var(--xv-blue);color:#fff;display:grid;place-items:center;
+  box-shadow:0 10px 26px rgba(18,58,107,.35);z-index:110;
+  opacity:0;visibility:hidden;transform:translateY(12px);transition:.25s;
+}
+.xv-top.xv-show{opacity:1;visibility:visible;transform:translateY(0)}
+.xv-top:hover{background:var(--xv-blue-deep)}
+.xv-top svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+
+/* Toast */
+.xv-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:rgba(11,36,68,.94);color:#fff;font-size:13.5px;font-weight:600;
+  padding:11px 22px;border-radius:999px;z-index:300;opacity:0;visibility:hidden;
+  transition:.28s;box-shadow:0 12px 30px rgba(0,0,0,.3);white-space:nowrap;
+}
+.xv-toast.xv-show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+/* 弹窗 */
+.xv-modal-mask{
+  position:fixed;inset:0;background:rgba(6,18,34,.62);backdrop-filter:blur(3px);
+  z-index:250;display:grid;place-items:center;padding:20px;
+  opacity:0;visibility:hidden;transition:.25s;
+}
+.xv-modal-mask.xv-show{opacity:1;visibility:visible}
+.xv-modal{
+  background:#fff;border-radius:20px;max-width:480px;width:100%;padding:30px;
+  transform:translateY(16px);transition:.28s;box-shadow:0 30px 70px rgba(0,0,0,.35);
+  max-height:86vh;overflow:auto;
+}
+.xv-modal-mask.xv-show .xv-modal{transform:translateY(0)}
+.xv-modal h3{font-size:19px;font-weight:900;color:var(--xv-blue-deep);margin-bottom:8px}
+.xv-modal p{font-size:13.5px;color:var(--xv-muted);margin-bottom:16px;line-height:1.8}
+.xv-modal label{display:block;font-size:12.5px;font-weight:700;color:#3a4b60;margin:12px 0 6px}
+.xv-modal input,.xv-modal textarea,.xv-modal select{
+  width:100%;border:1px solid var(--xv-line);border-radius:10px;padding:10px 12px;
+  font-family:inherit;font-size:13.5px;outline:none;background:#f8fbfe;color:var(--xv-ink);
+}
+.xv-modal input:focus,.xv-modal textarea:focus,.xv-modal select:focus{border-color:var(--xv-sky);background:#fff}
+.xv-modal textarea{min-height:90px;resize:vertical}
+.xv-modal .xv-modal-actions{display:flex;gap:10px;margin-top:20px}
+.xv-modal .xv-btn-primary{flex:1;justify-content:center;padding:11px 18px;font-size:14px}
+.xv-modal .xv-btn-ghost{flex:none;padding:10px 20px}
+.xv-share-list{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.xv-share-item{
+  flex:1 1 100px;text-align:center;background:#eef4fb;border-radius:12px;
+  padding:14px 8px;font-size:13px;font-weight:700;color:var(--xv-blue);transition:.2s;
+}
+.xv-share-item:hover{background:var(--xv-blue);color:#fff}
+
+@media(max-width:1080px){
+  .xv-creators{grid-template-columns:repeat(2,1fr)}
+  .xv-stream{grid-template-columns:repeat(2,1fr)}
+  .xv-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .xv-reviews{grid-template-columns:repeat(2,1fr)}
+  .xv-footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:920px){
+  .xv-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:#fff;flex-direction:column;padding:12px;gap:2px;
+    border-bottom:1px solid var(--xv-line);box-shadow:0 18px 30px rgba(18,58,107,.12);
+  }
+  .xv-nav.xv-open{display:flex}
+  .xv-nav a{padding:11px 14px}
+  .xv-burger{display:grid}
+  .xv-header-inner{position:relative;flex-wrap:wrap}
+  .xv-search input{width:110px}
+  .xv-hero-grid{grid-template-columns:1fr;gap:34px}
+  .xv-about-grid{grid-template-columns:1fr}
+  .xv-focus-grid{grid-template-columns:1fr}
+  .xv-contact-grid{grid-template-columns:1fr}
+  .xv-wall{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:640px){
+  .xv-header-tools .xv-btn-ghost{display:none}
+  .xv-search{padding:5px 5px 5px 10px}
+  .xv-search input{width:78px}
+  .xv-search button{padding:5px 10px;font-size:12px}
+  .xv-logo-sub{display:none}
+  .xv-hero{padding:44px 0 56px}
+  .xv-hero-stats{grid-template-columns:1fr 1fr}
+  .xv-stream{grid-template-columns:1fr}
+  .xv-topic-grid{grid-template-columns:1fr}
+  .xv-reviews{grid-template-columns:1fr}
+  .xv-news{grid-template-columns:1fr}
+  .xv-wall{grid-template-columns:repeat(2,1fr)}
+  .xv-wall-item.xv-wide{grid-column:span 2}
+  .xv-creators{grid-template-columns:1fr 1fr}
+  .xv-about-features{grid-template-columns:1fr}
+  .xv-footer-grid{grid-template-columns:1fr 1fr;gap:24px}
+  .xv-notice-inner{font-size:12.5px}
+  .xv-mini{grid-template-columns:104px 1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="xv-sticky-shell">
+  <!-- 公告条 -->
+  <div class="xv-notice">
+    <div class="xv-wrap xv-notice-inner">
+      <span class="xv-notice-tag">官方发布</span>
+      <span class="xv-notice-text"><b>11月新版内容生态上线</b>：新增「全球创作者影像计划」专题 12 部原创短片，同步开放 2026 冬季创作挑战报名通道。</span>
+      <a class="xv-notice-link" href="#xv-news">查看动态 →</a>
+    </div>
+  </div>
+
+  <!-- 页头 -->
+  <header class="xv-header" id="xv-top">
+    <div class="xv-wrap xv-header-inner">
+      <a class="xv-logo" href="#xv-top" aria-label="xvideos国外片官方网站首页">
+        <span class="xv-logo-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#f2b544"/></svg>
+        </span>
+        <span>
+          <span class="xv-logo-name">xvideos国外片</span>
+          <span class="xv-logo-sub">Official Video Portal</span>
+        </span>
+      </a>
+      <nav class="xv-nav" id="xv-nav" aria-label="主导航">
+        <a href="#xv-top" class="xv-active">首页</a>
+        <a href="#xv-focus">视频焦点</a>
+        <a href="#xv-stream">热门内容</a>
+        <a href="#xv-topics">专题企划</a>
+        <a href="#xv-creators">创作者</a>
+        <a href="#xv-news">企业动态</a>
+        <a href="#xv-faq">帮助</a>
+        <a href="#xv-contact">联系</a>
+      </nav>
+      <div class="xv-header-tools">
+        <div class="xv-search">
+          <input type="search" id="xv-search-input" placeholder="搜索影像主题" aria-label="搜索影像主题">
+          <button type="button" id="xv-search-btn">搜索</button>
+        </div>
+        <button type="button" class="xv-btn-ghost" data-xv-open="xv-submit-modal">投稿</button>
+        <button type="button" class="xv-burger" id="xv-burger" aria-label="展开导航" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+    <div class="xv-search-feedback" id="xv-search-feedback"></div>
+  </header>
+</div>
+
+<main>
+  <!-- 首屏 -->
+  <section class="xv-hero" aria-labelledby="xv-hero-title">
+    <div class="xv-wrap xv-hero-grid">
+      <div>
+        <span class="xv-hero-eyebrow"><i></i>官方网站 · 品牌直营 · 持续运营</span>
+        <h1 id="xv-hero-title">xvideos国外片 <em>品牌官网</em></h1>
+        <p class="xv-hero-lead">一家专注全球多元影像内容的视频品牌，为企业与创作者搭建高品质内容生态，让每一段真实影像被认真对待。</p>
+        <p class="xv-hero-brief">
+          <strong>xvideos国外片</strong>深耕影像内容领域，以官方网站为载体，聚合来自不同地域与生活方式的原创作品。我们坚持正版授权、高清呈现与社区共建三条主线，用专业的内容运营与值得信赖的品牌服务，服务每一位对世界保持好奇的观众，也陪伴每一位愿意讲述的创作者成长。
+        </p>
+        <div class="xv-hero-actions">
+          <a class="xv-btn-primary" href="#xv-focus">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            进入视频焦点
+          </a>
+          <a class="xv-btn-outline" href="#xv-creators">认识创作者</a>
+          <button type="button" class="xv-btn-outline" data-xv-open="xv-submit-modal">上传作品</button>
+        </div>
+        <div class="xv-hero-stats">
+          <div class="xv-stat"><b data-xv-count="12600">12,600+</b><span>原创作品入库</span></div>
+          <div class="xv-stat"><b data-xv-count="380">380+</b><span>签约创作者</span></div>
+          <div class="xv-stat"><b data-xv-count="98">98%</b><span>用户口碑好评</span></div>
+        </div>
+      </div>
+      <div class="xv-hero-visual">
+        <div class="xv-hero-cover">
+          <span class="xv-hero-cover-badge">本周品牌推荐</span>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230d2a4e'/%3E%3Cstop offset='.5' stop-color='%231d5893'/%3E%3Cstop offset='1' stop-color='%233f7cbf'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23g1)'/%3E%3Ccircle cx='640' cy='110' r='150' fill='%23f2b544' opacity='.18'/%3E%3Ccircle cx='150' cy='400' r='120' fill='%23ffffff' opacity='.07'/%3E%3Cpath d='M0 380 L180 300 L340 360 L520 250 L700 320 L800 270 L800 500 L0 500 Z' fill='%23071b33' opacity='.55'/%3E%3Cpath d='M0 430 L200 370 L400 420 L600 340 L800 400 L800 500 L0 500 Z' fill='%2304152a' opacity='.7'/%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.35' stroke-width='2'%3E%3Cpath d='M100 120 q60 -40 120 0 t120 0'/%3E%3Cpath d='M420 90 q50 -30 100 0 t100 0'/%3E%3C/g%3E%3C/svg%3E" alt="xvideos国外片品牌主视觉：全球影像内容生态封面">
+          <div class="xv-hero-cover-play" aria-hidden="true"><i></i></div>
+        </div>
+        <div class="xv-hero-float">
+          <i>▶</i>
+          <span>今日更新 <b>26</b> 部原创<small>涵盖城市探索与人文访谈</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌解析 -->
+  <section class="xv-section" id="xv-about">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">About The Brand</div>
+        <h2 class="xv-sec-title">关于 xvideos国外片：多元影像的品牌深耕</h2>
+        <p class="xv-sec-desc">从内容定位到社区运营，我们以企业级标准构建一个值得信赖的视频品牌官网。</p>
+      </div>
+      <div class="xv-about-grid">
+        <div class="xv-about-copy">
+          <p><strong>xvideos国外片</strong>作为垂直领域内的视频内容品牌，选择了一条更慢但更稳的路：不做信息的搬运工，而做影像价值的提炼者。我们把「国外」理解为一种观察视角——不同城市、不同职业、不同生活方式的人如何用镜头记录自己的日常。正是这种多元视角，构成了平台内容生态的底层逻辑。</p>
+          <p>在官方网站上，你可以看到三类核心内容：其一，真实生活记录，来自普通创作者的日常影像；其二，专业深度内容，包括人物访谈、行业观察与文化对谈；其三，实用技巧与教程，覆盖拍摄、剪辑、叙事结构等创作环节。三类内容互为支撑，既有温度，也有方法。</p>
+          <p>我们相信品质来自流程。从选题评审、版权确认、画面审校到上线后的数据复盘，每一步都由专业团队与创作者共同完成。平台坚持原创优先与正版授权，所有对外展示的内容均经过授权核验，这也是我们能够持续运营并积累口碑的基础。</p>
+          <p>对创作者，我们提供从创作灵感、脚本建议到剪辑思路的支持；对企业与机构，我们提供品牌故事梳理、专题企划与内容分发服务。我们希望通过一个开放、包容的内容社区，让更多真实的声音被听见，让更多值得被记录的生活片段拥有长期价值。这也是 xvideos国外片 作为企业品牌所承担的社会责任——用影像连接人，用内容陪伴成长。</p>
+          <div class="xv-about-features">
+            <div class="xv-feature"><b>原创优先</b><span>签约创作者原创作品占比稳定在八成以上</span></div>
+            <div class="xv-feature"><b>正版高清</b><span>内容授权链路完整，画质统一高清呈现</span></div>
+            <div class="xv-feature"><b>社区共建</b><span>评论区、话题区与投稿机制共同构成内容生态</span></div>
+            <div class="xv-feature"><b>专业运营</b><span>选题、审核、分发、复盘全流程可追溯</span></div>
+          </div>
+        </div>
+        <aside class="xv-about-panel">
+          <h3>品牌定位解析</h3>
+          <p>xvideos国外片 并不是一个单纯的内容聚合页面，而是一个围绕「影像 + 视角 + 社区」构建的长期品牌工程。我们把关键词拆成三层来理解：</p>
+          <ul class="xv-about-list">
+            <li><strong>影像层</strong>：以 16:9 视频为主要载体，强调画面品质与叙事节奏。</li>
+            <li><strong>视角层</strong>：关注不同地域与生活方式的真实表达，拒绝单一审美。</li>
+            <li><strong>社区层</strong>：通过投稿、评论、话题与比赛，让观众成为参与者。</li>
+            <li><strong>品牌层</strong>：以官方网站为信任入口，持续输出企业动态与官方发布。</li>
+            <li><strong>价值层</strong>：坚持真实、温暖、有力量的表达，长期陪伴用户成长。</li>
+          </ul>
+          <p style="margin-top:16px">我们的使命是让优质影像拥有更长的生命周期，让创作者的努力获得更稳定的回报，让观众在碎片时间里依然能遇到值得停留的内容。</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 视频焦点 -->
+  <section class="xv-section xv-section-alt" id="xv-focus">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Video Focus</div>
+        <h2 class="xv-sec-title">视频焦点：本周值得停留的影像</h2>
+        <p class="xv-sec-desc">由编辑团队与社区共同选出的重点内容，覆盖人物、城市与创作幕后。</p>
+      </div>
+      <div class="xv-focus-grid">
+        <article class="xv-video-card">
+          <div class="xv-video-thumb">
+            <span class="xv-thumb-tag">品牌企划</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f2b544'/%3E%3Cstop offset='1' stop-color='%23c97d18'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='%2314263d'/%3E%3Crect x='0' y='300' width='800' height='150' fill='url(%23f1)' opacity='.85'/%3E%3Ccircle cx='640' cy='120' r='90' fill='%23f2b544' opacity='.35'/%3E%3Cpath d='M80 320 L240 180 L400 280 L560 150 L720 260 L800 210 L800 450 L0 450 Z' fill='%23071020' opacity='.6'/%3E%3Cg stroke='%23f2b544' stroke-width='3' fill='none' opacity='.6'%3E%3Cpath d='M120 90 h120 v80 h-120 z'/%3E%3Cpath d='M300 70 h140 v110 h-140 z'/%3E%3C/g%3E%3C/svg%3E" alt="全球创作者影像计划专题封面：城市与人物剪影">
+            <span class="xv-thumb-time">18:42</span>
+            <span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>全球创作者影像计划：在十二座城市里，寻找同一种认真</h3>
+            <p>横跨十二座城市的联合拍摄企划，记录普通人在各自生活半径内的坚持与创造。从清晨的市场到深夜的工作室，镜头不追求奇观，只负责靠近。</p>
+            <div class="xv-video-meta"><span class="xv-author">品牌内容中心</span><span>·</span><span>2.4万次播放</span><span>·</span><span>11月17日</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>1286</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+              <button type="button" class="xv-act" data-xv-open="xv-share-modal">分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="xv-focus-side">
+          <article class="xv-mini">
+            <div class="xv-video-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%233f7cbf'/%3E%3Cpath d='M0 190 L100 130 L200 170 L300 110 L400 160 L400 250 L0 250 Z' fill='%23123a6b' opacity='.7'/%3E%3Ccircle cx='320' cy='60' r='34' fill='%23ffe6b0' opacity='.85'/%3E%3C/svg%3E" alt="城市清晨通勤影像封面">
+              <span class="xv-play" aria-hidden="true"></span>
+            </div>
+            <div class="xv-mini-txt">
+              <h4>清晨六点的通勤列车：一座城市醒来的十分钟</h4>
+              <span>城市探索 · 1.1万次播放</span>
+            </div>
+          </article>
+          <article class="xv-mini">
+            <div class="xv-video-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%2314263d'/%3E%3Cg fill='none' stroke='%23f2b544' stroke-width='2' opacity='.8'%3E%3Ccircle cx='120' cy='120' r='46'/%3E%3Ccircle cx='280' cy='120' r='46'/%3E%3Cpath d='M166 120 h68'/%3E%3C/g%3E%3Crect x='0' y='200' width='400' height='50' fill='%230a1728'/%3E%3C/svg%3E" alt="创作者对谈幕后影像封面">
+              <span class="xv-play" aria-hidden="true"></span>
+            </div>
+            <div class="xv-mini-txt">
+              <h4>对谈幕后：一部十分钟短片是怎样被剪出来的</h4>
+              <span>创作幕后 · 8600 次播放</span>
+            </div>
+          </article>
+          <article class="xv-mini">
+            <div class="xv-video-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%23c97d18'/%3E%3Cpath d='M0 200 Q100 140 200 190 T400 170 L400 250 L0 250 Z' fill='%237a4a08' opacity='.7'/%3E%3Cg fill='%23ffe6b0' opacity='.8'%3E%3Ccircle cx='90' cy='70' r='5'/%3E%3Ccircle cx='180' cy='50' r='4'/%3E%3Ccircle cx='280' cy='80' r='6'/%3E%3C/g%3E%3C/svg%3E" alt="手作工坊记录影像封面">
+              <span class="xv-play" aria-hidden="true"></span>
+            </div>
+            <div class="xv-mini-txt">
+              <h4>手作工坊的一天：慢下来，才看得见细节</h4>
+              <span>生活方式 · 1.5万次播放</span>
+            </div>
+          </article>
+          <article class="xv-mini">
+            <div class="xv-video-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'%3E%3Crect width='400' height='250' fill='%232f5e8f'/%3E%3Cpath d='M0 160 L80 120 L160 150 L240 100 L320 140 L400 110 L400 250 L0 250 Z' fill='%230f2b4c' opacity='.75'/%3E%3Cg fill='%23ffffff' opacity='.4'%3E%3Crect x='40' y='40' width='60' height='40' rx='6'/%3E%3Crect x='150' y='30' width='90' height='50' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="行业观察访谈封面">
+              <span class="xv-play" aria-hidden="true"></span>
+            </div>
+            <div class="xv-mini-txt">
+              <h4>行业观察：短视频之后，长内容为什么又回来了</h4>
+              <span>深度访谈 · 7200 次播放</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门视频流 -->
+  <section class="xv-section" id="xv-stream">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Trending Stream</div>
+        <h2 class="xv-sec-title">热门内容：社区正在关注</h2>
+        <p class="xv-sec-desc">按照主题筛选，看看和你兴趣相近的观众最近在看什么。所有内容均为平台原创与正版授权。</p>
+      </div>
+      <div class="xv-filter-bar" id="xv-filter-bar">
+        <button type="button" class="xv-chip xv-on" data-xv-filter="all">全部</button>
+        <button type="button" class="xv-chip" data-xv-filter="城市探索">城市探索</button>
+        <button type="button" class="xv-chip" data-xv-filter="人物访谈">人物访谈</button>
+        <button type="button" class="xv-chip" data-xv-filter="创作幕后">创作幕后</button>
+        <button type="button" class="xv-chip" data-xv-filter="生活方式">生活方式</button>
+      </div>
+      <div class="xv-stream" id="xv-stream-grid">
+        <article class="xv-video-card" data-xv-cat="城市探索">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">城市探索</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%231b4a7d'/%3E%3Cpath d='M0 210 L90 160 L180 200 L270 140 L360 190 L480 150 L480 270 L0 270 Z' fill='%230a1e36' opacity='.8'/%3E%3Cg fill='%23ffe6b0' opacity='.8'%3E%3Ccircle cx='380' cy='60' r='26'/%3E%3C/g%3E%3C/svg%3E" alt="老城巷弄地图影像封面">
+            <span class="xv-thumb-time">12:06</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>用一张地图走完老城：三条巷子里的六十年</h3>
+            <p>跟随在地向导穿过老街，听住户讲述街区变迁，影像节奏舒缓，信息密度扎实。</p>
+            <div class="xv-video-meta"><span class="xv-author">城市漫游者</span><span>·</span><span>3.2万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>2043</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="人物访谈">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">人物访谈</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23e7ece9'/%3E%3Crect x='60' y='50' width='160' height='170' rx='10' fill='%23b9c9c0'/%3E%3Crect x='260' y='80' width='160' height='140' rx='10' fill='%2390a89b'/%3E%3Ccircle cx='140' cy='110' r='30' fill='%235f7a6c'/%3E%3Ccircle cx='340' cy='140' r='26' fill='%234c6357'/%3E%3C/svg%3E" alt="手艺人访谈影像封面">
+            <span class="xv-thumb-time">22:15</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>与木作师傅聊了一下午：手艺人的时间单位是年</h3>
+            <p>一次没有提纲的长时间访谈，谈材料、谈耐心，也谈年轻人愿不愿意留下来。</p>
+            <div class="xv-video-meta"><span class="xv-author">片刻访谈</span><span>·</span><span>2.1万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>1567</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="创作幕后">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">创作幕后</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%2314263d'/%3E%3Cg stroke='%23f2b544' stroke-width='2.5' fill='none' opacity='.85'%3E%3Crect x='70' y='60' width='120' height='70' rx='8'/%3E%3Crect x='230' y='90' width='140' height='80' rx='8'/%3E%3Cpath d='M190 95 h40'/%3E%3C/g%3E%3Cg fill='%23f2b544' opacity='.5'%3E%3Ccircle cx='90' cy='200' r='4'/%3E%3Ccircle cx='140' cy='200' r='4'/%3E%3Ccircle cx='190' cy='200' r='4'/%3E%3C/g%3E%3C/svg%3E" alt="剪辑台前后对比影像封面">
+            <span class="xv-thumb-time">09:38</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>剪辑台前后对比：一条片子的四次推翻重来</h3>
+            <p>把未采用的版本也放出来，比成品更能说明问题：叙事顺序如何决定情绪落点。</p>
+            <div class="xv-video-meta"><span class="xv-author">剪辑员老周</span><span>·</span><span>1.8万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>987</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="生活方式">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">生活方式</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23dbe8dc'/%3E%3Cpath d='M0 200 Q120 150 240 195 T480 170 L480 270 L0 270 Z' fill='%237ba37c' opacity='.7'/%3E%3Ccircle cx='120' cy='70' r='40' fill='%23f2b544' opacity='.7'/%3E%3Cg fill='%235f7a60'%3E%3Crect x='290' y='120' width='14' height='90' rx='5'/%3E%3Crect x='330' y='100' width='14' height='110' rx='5'/%3E%3C/g%3E%3C/svg%3E" alt="阳台种植记录影像封面">
+            <span class="xv-thumb-time">07:52</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>两平米阳台的四季：种菜这件事教会我的耐心</h3>
+            <p>没有大型设备，也没有刻意摆拍，一条关于等待与收获的日常记录。</p>
+            <div class="xv-video-meta"><span class="xv-author">阿禾的阳台</span><span>·</span><span>2.6万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>3120</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="城市探索">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">城市探索</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%230e2b4d'/%3E%3Cg fill='%23ffd98a' opacity='.9'%3E%3Ccircle cx='80' cy='60' r='3'/%3E%3Ccircle cx='140' cy='90' r='3'/%3E%3Ccircle cx='200' cy='50' r='3'/%3E%3Ccircle cx='300' cy='70' r='3'/%3E%3Ccircle cx='380' cy='40' r='3'/%3E%3C/g%3E%3Cpath d='M0 175 L120 140 L240 180 L360 130 L480 170 L480 270 L0 270 Z' fill='%23071426' opacity='.85'/%3E%3C/svg%3E" alt="夜间市集记录影像封面">
+            <span class="xv-thumb-time">15:20</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>夜市收摊前的四十分钟：摊主们不为人知的另一面</h3>
+            <p>避开人潮高峰，记录烟火气散场之后更真实的一段时光，声音设计尤其出色。</p>
+            <div class="xv-video-meta"><span class="xv-author">深夜镜头</span><span>·</span><span>4.1万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>4210</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="人物访谈">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">人物访谈</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23253a52'/%3E%3Ccircle cx='240' cy='130' r='70' fill='%233f7cbf' opacity='.4'/%3E%3Ccircle cx='240' cy='105' r='26' fill='%23e7c08a'/%3E%3Cpath d='M200 200 q40 -46 80 0' fill='%23e7c08a' opacity='.8'/%3E%3C/svg%3E" alt="青年摄影师访谈影像封面">
+            <span class="xv-thumb-time">26:04</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>访谈：拍了三百卷胶片之后，他开始只拍家人</h3>
+            <p>关于创作动力的转向，关于如何面对重复的题材，也关于被理解这件事有多难。</p>
+            <div class="xv-video-meta"><span class="xv-author">访谈组</span><span>·</span><span>1.4万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>1320</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="创作幕后">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">创作幕后</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23302a44'/%3E%3Cg stroke='%23b39ddb' stroke-width='2' fill='none'%3E%3Cpath d='M80 200 L160 90 L240 150 L320 60 L400 130'/%3E%3Ccircle cx='160' cy='90' r='6' fill='%23b39ddb'/%3E%3Ccircle cx='320' cy='60' r='6' fill='%23b39ddb'/%3E%3C/g%3E%3Cg fill='%23b39ddb' opacity='.3'%3E%3Crect x='60' y='210' width='360' height='6' rx='3'/%3E%3C/g%3E%3C/svg%3E" alt="脚本结构分解影像封面">
+            <span class="xv-thumb-time">11:27</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>把一条五分钟短片拆成十八个节拍：脚本结构分享</h3>
+            <p>从钩子、铺垫到情绪回落，用具体案例讲解叙事节奏的设计方法，适合新手参考。</p>
+            <div class="xv-video-meta"><span class="xv-author">内容方法局</span><span>·</span><span>2.9万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>2455</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="生活方式">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">生活方式</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f3e7d3'/%3E%3Crect x='40' y='150' width='400' height='12' rx='6' fill='%23a9825a'/%3E%3Cg fill='%238c6b48'%3E%3Crect x='70' y='90' width='26' height='60' rx='4'/%3E%3Crect x='112' y='110' width='20' height='40' rx='4'/%3E%3Crect x='320' y='100' width='24' height='50' rx='4'/%3E%3C/g%3E%3Ccircle cx='240' cy='110' r='36' fill='%23c99a63' opacity='.8'/%3E%3C/svg%3E" alt="清晨厨房记录影像封面">
+            <span class="xv-thumb-time">08:14</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>周末厨房：三道不用称量的家常菜，和一点小技巧</h3>
+            <p>不追求精致摆盘，把火候和调味的经验说清楚，是这条视频最实用之处。</p>
+            <div class="xv-video-meta"><span class="xv-author">厨房边角料</span><span>·</span><span>5.3万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>5640</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="xv-video-card" data-xv-cat="城市探索">
+          <div class="xv-video-thumb"><span class="xv-thumb-tag">城市探索</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%235b8db3'/%3E%3Cpath d='M0 180 L100 120 L200 165 L300 115 L400 160 L480 130 L480 270 L0 270 Z' fill='%231f4363' opacity='.8'/%3E%3Cg fill='%23ffffff' opacity='.5'%3E%3Cpath d='M60 60 q30 -22 60 0 q30 -22 60 0' fill='none' stroke='%23ffffff' stroke-width='3'/%3E%3C/g%3E%3C/svg%3E" alt="海岸线徒步记录影像封面">
+            <span class="xv-thumb-time">19:56</span><span class="xv-play" aria-hidden="true"></span>
+          </div>
+          <div class="xv-video-body">
+            <h3>沿海岸线走了十八公里：风吹过来的时候在想什么</h3>
+            <p>一次长距离徒步的影像随笔，镜头沉稳，旁白克制，评论区讨论热烈。</p>
+            <div class="xv-video-meta"><span class="xv-author">路上有风</span><span>·</span><span>3.7万次播放</span></div>
+            <div class="xv-video-actions">
+              <button type="button" class="xv-act" data-xv-like><svg viewBox="0 0 24 24"><path d="M7 10v11H4V10h3zm3 11a2 2 0 0 1-2-2V9l5-6 1 1v4h6a2 2 0 0 1 2 2l-2 8a2 2 0 0 1-2 2H10z"/></svg><span data-xv-like-num>3810</span> 赞</button>
+              <button type="button" class="xv-act" data-xv-fav><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.5-7 10-7 10z"/></svg>收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="xv-section xv-section-alt" id="xv-topics">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Special Projects</div>
+        <h2 class="xv-sec-title">专题企划：围绕一个主题，把内容做深</h2>
+        <p class="xv-sec-desc">专题由编辑团队发起，创作者共同参与，持续更新。部分专题开放报名与投票。</p>
+      </div>
+      <div class="xv-topic-grid">
+        <a class="xv-topic" href="#xv-stream">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23123a6b'/%3E%3Ccircle cx='470' cy='90' r='120' fill='%23f2b544' opacity='.22'/%3E%3Cpath d='M0 300 L120 240 L240 290 L360 220 L480 280 L600 240 L600 400 L0 400 Z' fill='%23091c33' opacity='.8'/%3E%3C/svg%3E" alt="全球创作者影像计划专题封面">
+          <span class="xv-topic-txt">
+            <b>全球创作者影像计划</b>
+            <p>十二座城市，十二种生活节奏，一次关于「认真」的联合记录。</p>
+            <span class="xv-topic-status">更新至第 8 期</span>
+          </span>
+        </a>
+        <a class="xv-topic" href="#xv-stream">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%232f5e8f'/%3E%3Cg stroke='%23ffe6b0' stroke-width='3' fill='none' opacity='.6'%3E%3Crect x='90' y='90' width='140' height='90' rx='10'/%3E%3Crect x='290' y='140' width='180' height='110' rx='10'/%3E%3C/g%3E%3Cpath d='M0 330 L200 280 L400 320 L600 270 L600 400 L0 400 Z' fill='%230d2a4e' opacity='.85'/%3E%3C/svg%3E" alt="一间工作室的十年专题封面">
+          <span class="xv-topic-txt">
+            <b>一间工作室的十年</b>
+            <p>走进不同创作者的工作现场，看长期主义如何在日常里落地。</p>
+            <span class="xv-topic-status">共 6 集 · 已完结</span>
+          </span>
+        </a>
+        <a class="xv-topic" href="#xv-stream">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%237ba37c'/%3E%3Ccircle cx='150' cy='110' r='70' fill='%23f2b544' opacity='.55'/%3E%3Cpath d='M0 280 Q150 220 300 270 T600 250 L600 400 L0 400 Z' fill='%232f4a33' opacity='.75'/%3E%3C/svg%3E" alt="慢生活影像征集专题封面">
+          <span class="xv-topic-txt">
+            <b>慢生活影像征集</b>
+            <p>面向社区开放投稿，用影像记录那些被忽略的安静时刻。</p>
+            <span class="xv-topic-status">报名中 · 12月截止</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="xv-section" id="xv-creators">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Creators</div>
+        <h2 class="xv-sec-title">创作者矩阵：内容生态的中坚力量</h2>
+        <p class="xv-sec-desc">他们来自不同领域，共同构成了 xvideos国外片 的多元表达。点击头像可查看创作者简介。</p>
+      </div>
+      <div class="xv-creators">
+        <article class="xv-creator">
+          <div class="xv-avatar" style="background:linear-gradient(135deg,#3f7cbf,#123a6b)" data-xv-creator="城市漫游者|城市探索|代表作《用一张地图走完老城》《地铁终点站之外》|擅长以步行视角记录城市细节，作品节奏舒缓，信息扎实。" role="button" tabindex="0">城</div>
+          <h3>城市漫游者</h3>
+          <span class="xv-domain">城市探索</span>
+          <p>用脚步丈量街区，专注城市变迁与日常观察，作品多次入选平台专题。</p>
+          <div class="xv-creator-stats"><span><b>68</b>作品</span><span><b>4.2万</b>粉丝</span></div>
+        </article>
+        <article class="xv-creator">
+          <div class="xv-avatar" style="background:linear-gradient(135deg,#c97d18,#f2b544)" data-xv-creator="片刻访谈|人物访谈|代表作《与木作师傅聊了一下午》《深夜面包房》|擅长长时访谈，提问克制，擅长让受访者自己说出故事。" role="button" tabindex="0">片</div>
+          <h3>片刻访谈</h3>
+          <span class="xv-domain">人物访谈</span>
+          <p>不追热点的访谈者，关注手艺、职业与选择，提问温和但有力量。</p>
+          <div class="xv-creator-stats"><span><b>41</b>作品</span><span><b>3.1万</b>粉丝</span></div>
+        </article>
+        <article class="xv-creator">
+          <div class="xv-avatar" style="background:linear-gradient(135deg,#5f7a6c,#90a89b)" data-xv-creator="剪辑员老周|创作幕后|代表作《一条片子的四次推翻重来》《声音先于画面》|把幕后过程公开给观众，讲方法也讲失败经验。" role="button" tabindex="0">周</div>
+          <h3>剪辑员老周</h3>
+          <span class="xv-domain">创作幕后</span>
+          <p>十年剪辑经验，愿意把失败版本也放出来，用过程本身说明问题。</p>
+          <div class="xv-creator-stats"><span><b>93</b>作品</span><span><b>5.6万</b>粉丝</span></div>
+        </article>
+        <article class="xv-creator">
+          <div class="xv-avatar" style="background:linear-gradient(135deg,#7ba37c,#4f6b50)" data-xv-creator="阿禾的阳台|生活方式|代表作《两平米阳台的四季》《把日子过慢一点》|记录种植、烹饪与居家日常，画面自然，不刻意布置。" role="button" tabindex="0">禾</div>
+          <h3>阿禾的阳台</h3>
+          <span class="xv-domain">生活方式</span>
+          <p>两平米阳台的种植记录者，相信耐心是可以被影像保存下来的。</p>
+          <div class="xv-creator-stats"><span><b>52</b>作品</span><span><b>2.8万</b>粉丝</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 -->
+  <section class="xv-section xv-section-alt" id="xv-wall">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Gallery Wall</div>
+        <h2 class="xv-sec-title">作品墙：社区影像的切片</h2>
+        <p class="xv-sec-desc">来自社区投稿的精选画面，尺寸与题材各不相同，共同拼出一幅日常图景。</p>
+      </div>
+      <div class="xv-wall">
+        <figure class="xv-wall-item xv-tall">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 840'%3E%3Crect width='400' height='840' fill='%230e2b4d'/%3E%3Cpath d='M0 560 L100 460 L200 540 L300 430 L400 500 L400 840 L0 840 Z' fill='%23071426' opacity='.85'/%3E%3Ccircle cx='300' cy='180' r='70' fill='%23f2b544' opacity='.5'/%3E%3C/svg%3E" alt="夜色中的城市天桥影像">
+          <figcaption class="xv-wall-cap">夜色中的天桥</figcaption>
+        </figure>
+        <figure class="xv-wall-item xv-wide">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 380'%3E%3Crect width='800' height='380' fill='%235b8db3'/%3E%3Cpath d='M0 260 Q200 200 400 250 T800 230 L800 380 L0 380 Z' fill='%231f4363' opacity='.8'/%3E%3Cpath d='M0 300 Q200 250 400 290 T800 270 L800 380 L0 380 Z' fill='%23102c47' opacity='.9'/%3E%3C/svg%3E" alt="海边公路远行影像">
+          <figcaption class="xv-wall-cap">海边公路 · 十八公里</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23f3e7d3'/%3E%3Ccircle cx='200' cy='150' r='90' fill='%23c99a63' opacity='.7'/%3E%3Crect x='90' y='260' width='220' height='14' rx='7' fill='%23a9825a'/%3E%3C/svg%3E" alt="厨房窗台上的陶罐影像">
+          <figcaption class="xv-wall-cap">窗台上的陶罐</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%232f5e8f'/%3E%3Cg stroke='%23ffe6b0' stroke-width='2' fill='none' opacity='.7'%3E%3Crect x='70' y='90' width='110' height='80' rx='8'/%3E%3Crect x='220' y='130' width='120' height='90' rx='8'/%3E%3C/g%3E%3C/svg%3E" alt="工作室灯光下的设备影像">
+          <figcaption class="xv-wall-cap">收工前的设备</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%237ba37c'/%3E%3Ccircle cx='120' cy='110' r='50' fill='%23f2b544' opacity='.6'/%3E%3Cpath d='M0 300 Q200 240 400 290 L400 400 L0 400 Z' fill='%232f4a33' opacity='.8'/%3E%3C/svg%3E" alt="阳台绿植生长影像">
+          <figcaption class="xv-wall-cap">第二年的新芽</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23302a44'/%3E%3Cg stroke='%23b39ddb' stroke-width='2' fill='none'%3E%3Cpath d='M70 280 L150 150 L230 220 L310 110 L360 180'/%3E%3C/g%3E%3C/svg%3E" alt="剪辑时间线截图影像">
+          <figcaption class="xv-wall-cap">第十八版时间线</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%231b4a7d'/%3E%3Cpath d='M0 300 L100 240 L200 290 L300 230 L400 280 L400 400 L0 400 Z' fill='%230a1e36' opacity='.85'/%3E%3Cg fill='%23ffe6b0' opacity='.8'%3E%3Ccircle cx='310' cy='100' r='30'/%3E%3C/g%3E%3C/svg%3E" alt="老城屋顶轮廓影像">
+          <figcaption class="xv-wall-cap">屋顶与远方</figcaption>
+        </figure>
+        <figure class="xv-wall-item">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23dbe8dc'/%3E%3Cpath d='M0 320 Q200 250 400 310 L400 400 L0 400 Z' fill='%237ba37c' opacity='.75'/%3E%3C/svg%3E" alt="清晨薄雾中的小路影像">
+          <figcaption class="xv-wall-cap">薄雾里的清晨</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="xv-section" id="xv-reviews">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Community Voices</div>
+        <h2 class="xv-sec-title">用户评价：口碑来自长期陪伴</h2>
+        <p class="xv-sec-desc">来自观众与创作者的真实反馈，语气与关注点各不相同，我们尽量原样保留。</p>
+      </div>
+      <div class="xv-reviews">
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#3f7cbf,#123a6b)">林</span><span><b>林间有风</b><span>观众 · 关注城市探索</span></span></div>
+          <p>看了那期老城巷子的片子，第二天真的按图走了一趟。很少有平台的内容能让人产生行动的冲动，这一点很难得。</p>
+        </article>
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#c97d18,#f2b544)">陈</span><span><b>陈默拍摄中</b><span>创作者 · 签约一年</span></span></div>
+          <p>投稿流程比我预想的清楚，从版权确认到上线大概一周。编辑给的意见很具体，不是那种敷衍的鼓励话。</p>
+        </article>
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#5f7a6c,#90a89b)">赵</span><span><b>赵小满</b><span>观众 · 喜欢生活方式类</span></span></div>
+          <p>画质稳定，广告也不打扰。睡前看两集阳台种菜的记录，已经变成习惯了，有一种被陪伴的感觉。</p>
+        </article>
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#7ba37c,#4f6b50)">吴</span><span><b>吴工不说话</b><span>观众 · 行业从业者</span></span></div>
+          <p>行业观察那期讲到长内容回归，观点不算新，但案例扎实，数据来源清楚。作为从业者，我愿意把它转给同事。</p>
+        </article>
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#6b5b95,#b39ddb)">周</span><span><b>周末不加班</b><span>创作者 · 新人</span></span></div>
+          <p>第一次投稿被退回来了，理由是画面节奏太赶。虽然有点失落，但对方给的建议确实有用，第二版通过了。</p>
+        </article>
+        <article class="xv-review">
+          <div class="xv-review-head"><span class="xv-avatar" style="background:linear-gradient(135deg,#2f5e8f,#5b8db3)">何</span><span><b>何处是远方</b><span>观众 · 长期用户</span></span></div>
+          <p>从两年前就开始用，最大的感受是内容没有变味。没有为了流量去堆标题，这一点在现在挺少见，值得信赖。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 -->
+  <section class="xv-section xv-section-alt" id="xv-news">
+    <div class="xv-wrap">
+      <div class="xv-sec-head">
+        <div class="xv-sec-kicker">Newsroom</div>
+        <h2 class="xv-sec-title">企业动态与官方发布</h2>
+        <p class="xv-sec-desc">关于平台规则、专题企划与品牌合作的近期更新，均以官方渠道发布为准。</p>
+      </div>
+      <div class="xv-news">
+        <article class="xv-news-item">
+          <div class="xv-news-date"><b>18</b><span>11月</span></div>
+          <div><h3>2026 冬季创作挑战正式开放报名</h3><p>主题为「日常里的光」，鼓励创作者记录身边微小但真实的瞬间。报名入口已在投稿页面开放，截止 12 月 20 日。</p></div>
+        </article>
+        <article class="xv-news-item">
+          <div class="xv-news-date"><b>12</b><span>11月</span></div>
+          <div><h3>内容审核规范 3.2 版更新说明</h3><p>进一步明确原创认定标准与授权材料要求，新增对合作拍摄署名方式的说明，创作者可在帮助中心查看完整条文。</p></div>
+        </article>
+        <article class="xv-news-item">
+          <div class="xv-news-date"><b>05</b><span>11月</span></div>
+          <div><h3>「全球创作者影像计划」第八期上线</h3><p>本期聚焦三座沿海城市的生活节奏，由六位创作者联合完成拍摄，专题页面已同步更新全部幕后花絮。</p></div>
+        </article>
+        <article class="xv-news-item">
+          <div class="xv-news-date"><b>28</b><span>10月</span></div>
+          <div><h3>品牌合作：与两家影像机构达成内容共建</h3><p>双方将在纪实短片制作与青年创作者扶持方向上展开合作，首批联合企划预计于明年一季度与观众见面。</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="xv-section" id="xv-faq">
+    <div class="xv-wrap">
+      <div class="xv-sec-head" style="text-align:center;margin-left:auto;margin-right:auto">
+        <div class="xv-sec-kicker" style="justify-content:center">Help Center</div>
+        <h2 class="xv-sec-title">常见问题</h2>
+        <p class="xv-sec-desc">关于投稿、版权、账号与合作的常见疑问，答案均以官方网站公布信息为准。</p>
+      </div>
+      <div class="xv-faq">
+        <details open>
+          <summary>如何向平台投稿自己的影像作品？</summary>
+          <p>点击页面右上角「投稿」按钮，填写作品基础信息并上传成片与素材清单。编辑团队通常会在 5 个工作日内完成初审，通过后会与你确认授权材料并安排上线档期。个人创作者与机构合作均可投稿。</p>
+        </details>
+        <details>
+          <summary>平台对原创与正版授权有什么要求？</summary>
+          <p>我们要求投稿作品为投稿者原创或已获得完整授权，包括画面、音乐、字体与出镜人员肖像权。涉及第三方素材时，需提供可核验的授权说明。平台会对上线内容进行抽查，如发现权利瑕疵将先行下线。</p>
+        </details>
+        <details>
+          <summary>视频的画质与格式有什么建议？</summary>
+          <p>建议提交 1080P 及以上分辨率、16:9 比例的成片，码率不低于 8Mbps，音频采样率 48kHz。若为竖屏内容，请在投稿时备注，我们会根据内容特性安排不同的展示位置。</p>
+        </details>
+        <details>
+          <summary>审核一般需要多久？被退回后还能再投吗？</summary>
+          <p>初审通常为 5 个工作日，进入复审后视素材复杂度可能延长 2 至 3 天。若作品被退回，我们会附上具体修改建议，你可以调整后重新提交，同一作品不限制修改次数。</p>
+        </details>
+        <details>
+          <summary>平台会为创作者提供哪些支持？</summary>
+          <p>包括选题建议、脚本结构参考、剪辑思路反馈、专题企划邀约，以及作品上线后的数据复盘。对持续产出优质内容的创作者，我们会开放签约合作与联合出品机会。</p>
+        </details>
+        <details>
+          <summary>品牌或机构如何与平台开展内容合作？</summary>
+          <p>可通过页面底部的联系邮箱提交合作意向，说明品牌背景、内容方向与预期周期。我们会在评估后安排专人对接，合作形式包括品牌故事片、专题共建与联合企划等。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系与伙伴 -->
+  <section class="xv-section xv-section-alt" id="xv-contact">
+    <div class="xv-wrap">
+      <div class="xv-contact-grid">
+        <div>
+          <div class="xv-sec-head" style="margin-bottom:18px">
+            <div class="xv-sec-kicker">Contact &amp; Submit</div>
+            <h2 class="xv-sec-title">与我们一起，把内容做得更久一点</h2>
+            <p class="xv-sec-desc">无论是投稿、合作还是反馈，我们都愿意认真读完每一条信息。</p>
+          </div>
+          <div class="xv-contact-actions">
+            <button type="button" class="xv-btn-primary" data-xv-open="xv-submit-modal">我要投稿 / 上传作品</button>
+            <button type="button" class="xv-btn-ghost" data-xv-open="xv-share-modal">分享官网</button>
+            <button type="button" class="xv-btn-ghost" data-xv-open="xv-report-modal">反馈问题</button>
+          </div>
+          <div class="xv-partners">
+            <span class="xv-partner">城市影像联盟</span>
+            <span class="xv-partner">慢记录工作室</span>
+            <span class="xv-partner">青禾影像机构</span>
+            <span class="xv-partner">长镜头计划</span>
+          </div>
+        </div>
+        <div class="xv-contact-card">
+          <h3>官方联系渠道</h3>
+          <p>工作日 10:00 – 19:00 有专人值守，合作类邮件一般在两个工作日内回复。</p>
+          <div class="xv-contact-row"><b>合作邮箱</b><span>brand@xvideos-film.example</span></div>
+          <div class="xv-contact-row"><b>投稿咨询</b><span>submit@xvideos-film.example</span></div>
+          <div class="xv-contact-row"><b>内容反馈</b><span>feedback@xvideos-film.example</span></div>
+          <div class="xv-contact-row"><b>办公地址</b><span>影像内容产业园 B 座 7 层</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 页脚 -->
+<footer class="xv-footer">
+  <div class="xv-wrap">
+    <div class="xv-footer-grid">
+      <div class="xv-footer-brand">
+        <span class="xv-logo-name">xvideos国外片</span>
+        <p>xvideos国外片 官方网站，深耕多元影像内容的视频品牌，致力于搭建高品质内容生态，持续运营，值得信赖。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#xv-focus">视频焦点</a></li>
+          <li><a href="#xv-stream">热门内容</a></li>
+          <li><a href="#xv-topics">专题企划</a></li>
+          <li><a href="#xv-wall">作品墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#xv-about">品牌故事</a></li>
+          <li><a href="#xv-creators">创作者矩阵</a></li>
+          <li><a href="#xv-news">企业动态</a></li>
+          <li><a href="#xv-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>合作</h4>
+        <ul>
+          <li><a href="#xv-contact">品牌合作</a></li>
+          <li><a href="#xv-contact">内容投稿</a></li>
+          <li><a href="#xv-contact">问题反馈</a></li>
+          <li><a href="#xv-top">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="xv-footer-bottom">
+      <span>© 2026 xvideos国外片 官方网站 · 版权所有 · 持续运营中</span>
+      <span>原创内容 · 正版授权 · 高清呈现 · 用户至上</span>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="xv-top" id="xv-top-btn" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="xv-toast" id="xv-toast" role="status" aria-live="polite"></div>
+
+<!-- 投稿弹窗 -->
+<div class="xv-modal-mask" id="xv-submit-modal" role="dialog" aria-modal="true" aria-labelledby="xv-submit-title">
+  <div class="xv-modal">
+    <h3 id="xv-submit-title">投稿 / 上传作品</h3>
+    <p>填写基础信息后提交，编辑团队会在 5 个工作日内与你联系。请确保作品为原创或已获完整授权。</p>
+    <label for="xv-sub-name">作品标题</label>
+    <input type="text" id="xv-sub-name" placeholder="例如：城市清晨的第一班地铁">
+    <label for="xv-sub-cat">内容方向</label>
+    <select id="xv-sub-cat">
+      <option>城市探索</option>
+      <option>人物访谈</option>
+      <option>创作幕后</option>
+      <option>生活方式</option>
+      <option>其他</option>
+    </select>
+    <label for="xv-sub-mail">联系邮箱</label>
+    <input type="email" id="xv-sub-mail" placeholder="用于接收审核结果">
+    <div class="xv-modal-actions">
+      <button type="button" class="xv-btn-primary" id="xv-submit-send">提交投稿</button>
+      <button type="button" class="xv-btn-ghost" data-xv-close>取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- 分享弹窗 -->
+<div class="xv-modal-mask" id="xv-share-modal" role="dialog" aria-modal="true" aria-labelledby="xv-share-title">
+  <div class="xv-modal">
+    <h3 id="xv-share-title">分享 xvideos国外片</h3>
+    <p>把官方网站分享给对影像感兴趣的朋友，一起加入这个内容社区。</p>
+    <div class="xv-share-list">
+      <button type="button" class="xv-share-item" data-xv-share="微信">微信</button>
+      <button type="button" class="xv-share-item" data-xv-share="微博">微博</button>
+      <button type="button" class="xv-share-item" data-xv-share="QQ">QQ</button>
+      <button type="button" class="xv-share-item" data-xv-share="链接">复制链接</button>
+    </div>
+    <div class="xv-modal-actions">
+      <button type="button" class="xv-btn-ghost" data-xv-close style="flex:1;justify-content:center">关闭</button>
+    </div>
+  </div>
+</div>
+
+<!-- 反馈弹窗 -->
+<div class="xv-modal-mask" id="xv-report-modal" role="dialog" aria-modal="true" aria-labelledby="xv-report-title">
+  <div class="xv-modal">
+    <h3 id="xv-report-title">反馈问题</h3>
+    <p>遇到播放异常、内容问题或账号相关疑问，请描述具体情况，我们会尽快处理。</p>
+    <label for="xv-report-type">问题类型</label>
+    <select id="xv-report-type">
+      <option>页面显示异常</option>
+      <option>内容相关问题</option>
+      <option>投稿与审核</option>
+      <option>合作咨询</option>
+    </select>
+    <label for="xv-report-text">问题描述</label>
+    <textarea id="xv-report-text" placeholder="请尽量写清楚具体页面与现象"></textarea>
+    <div class="xv-modal-actions">
+      <button type="button" class="xv-btn-primary" id="xv-report-send">提交反馈</button>
+      <button type="button" class="xv-btn-ghost" data-xv-close>取消</button>
+    </div>
+  </div>
+</div>
+
+<!-- 作者弹窗 -->
+<div class="xv-modal-mask" id="xv-creator-modal" role="dialog" aria-modal="true" aria-labelledby="xv-creator-title">
+  <div class="xv-modal">
+    <h3 id="xv-creator-title">创作者简介</h3>
+    <p id="xv-creator-desc">加载中…</p>
+    <div class="xv-modal-actions">
+      <button type="button" class="xv-btn-ghost" data-xv-close style="flex:1;justify-content:center">关闭</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Toast */
+  var toastEl = document.getElementById('xv-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('xv-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('xv-show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('xv-burger');
+  var nav = document.getElementById('xv-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('xv-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('xv-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 导航高亮 */
+  var navLinks = Array.prototype.slice.call(nav.querySelectorAll('a'));
+  navLinks.forEach(function(a){
+    a.addEventListener('click', function(){
+      navLinks.forEach(function(x){x.classList.remove('xv-active');});
+      a.classList.add('xv-active');
+    });
+  });
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('xv-search-input');
+  var searchBtn = document.getElementById('xv-search-btn');
+  var feedback = document.getElementById('xv-search-feedback');
+  function doSearch(){
+    var kw = searchInput.value.trim();
+    if(!kw){
+      feedback.textContent = '请输入关键词，例如「城市」「访谈」「剪辑」。';
+      feedback.classList.add('xv-show');
+      searchInput.focus();
+      return;
+    }
+    feedback.textContent = '正在为你检索「' + kw + '」相关内容，已为你匹配到 12 条影像条目，可在下方热门内容中查看相近主题。';
+    feedback.classList.add('xv-show');
+    toast('已检索：' + kw);
+    var target = document.getElementById('xv-stream');
+    if(target){ target.scrollIntoView({behavior:'smooth',block:'start'}); }
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+
+  /* 点赞 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-xv-like]');
+    if(likeBtn){
+      var numEl = likeBtn.querySelector('[data-xv-like-num]');
+      var num = parseInt(numEl.textContent.replace(/,/g,''),10) || 0;
+      if(likeBtn.classList.contains('xv-on')){
+        likeBtn.classList.remove('xv-on');
+        num = Math.max(0, num - 1);
+        toast('已取消点赞');
+      }else{
+        likeBtn.classList.add('xv-on');
+        num = num + 1;
+        toast('已点赞，感谢支持');
+      }
+      numEl.textContent = num.toLocaleString('en-US');
+      return;
+    }
+    var favBtn = e.target.closest('[data-xv-fav]');
+    if(favBtn){
+      var on = favBtn.classList.toggle('xv-on');
+      toast(on ? '已加入收藏' : '已取消收藏');
+    }
+  });
+
+  /* 弹窗通用 */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(m){ m.classList.add('xv-show'); }
+  }
+  function closeAllModals(){
+    document.querySelectorAll('.xv-modal-mask.xv-show').forEach(function(m){
+      m.classList.remove('xv-show');
+    });
+  }
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-xv-open]');
+    if(opener){
+      e.preventDefault();
+      openModal(opener.getAttribute('data-xv-open'));
+      return;
+    }
+    if(e.target.closest('[data-xv-close]')){
+      closeAllModals();
+      return;
+    }
+    if(e.target.classList && e.target.classList.contains('xv-modal-mask')){
+      e.target.classList.remove('xv-show');
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ closeAllModals(); }
+  });
+
+  /* 分享 */
+  document.addEventListener('click', function(e){
+    var s = e.target.closest('[data-xv-share]');
+    if(!s) return;
+    var channel = s.getAttribute('data-xv-share');
+    if(channel === '链接'){
+      var url = window.location.origin + window.location.pathname;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(url).then(function(){
+          toast('官网链接已复制');
+        }).catch(function(){
+          toast('官网链接已复制');
+        });
+      }else{
+        toast('官网链接已复制');
+      }
+    }else{
+      toast('已生成「' + channel + '」分享提示');
+    }
+  });
+
+  /* 投稿提交 */
+  var submitSend = document.getElementById('xv-submit-send');
+  submitSend.addEventListener('click', function(){
+    var name = document.getElementById('xv-sub-name').value.trim();
+    var mail = document.getElementById('xv-sub-mail').value.trim();
+    if(!name){
+      toast('请填写作品标题');
+      return;
+    }
+    if(!mail || mail.indexOf('@') === -1){
+      toast('请填写有效的联系邮箱');
+      return;
+    }
+    closeAllModals();
+    toast('投稿已提交，审核结果将发送至邮箱');
+    document.getElementById('xv-sub-name').value = '';
+    document.getElementById('xv-sub-mail').value = '';
+  });
+
+  /* 反馈提交 */
+  var reportSend = document.getElementById('xv-report-send');
+  reportSend.addEventListener('click', function(){
+    var txt = document.getElementById('xv-report-text').value.trim();
+    if(!txt){
+      toast('请填写问题描述');
+      return;
+    }
+    closeAllModals();
+    toast('反馈已收到，感谢你的帮助');
+    document.getElementById('xv-report-text').value = '';
+  });
+
+  /* 作者弹窗 */
+  document.querySelectorAll('[data-xv-creator]').forEach(function(node){
+    function show(){
+      var raw = node.getAttribute('data-xv-creator');
+      var parts = raw.split('|');
+      document.getElementById('xv-creator-title').textContent = parts[0] || '创作者简介';
+      var desc = '';
+      if(parts[1]){ desc += '擅长领域：' + parts[1] + '。'; }
+      if(parts[2]){ desc += parts[2] + '。'; }
+      if(parts[3]){ desc += parts[3]; }
+      document.getElementById('xv-creator-desc').textContent = desc || '这位创作者暂无更多简介。';
+      openModal('xv-creator-modal');
+    }
+    node.addEventListener('click', show);
+    node.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); show(); }
+    });
+  });
+
+  /* 标签筛选 */
+  var filterBar = document.getElementById('xv-filter-bar');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#xv-stream-grid [data-xv-cat]'));
+  filterBar.addEventListener('click', function(e){
+    var chip = e.target.closest('[data-xv-filter]');
+    if(!chip) return;
+    var f = chip.getAttribute('data-xv-filter');
+    filterBar.querySelectorAll('.xv-chip').forEach(function(c){ c.classList.remove('xv-on'); });
+    chip.classList.add('xv-on');
+    var shown = 0;
+    cards.forEach(function(card){
+      var match = (f === 'all') || (card.getAttribute('data-xv-cat') === f);
+      card.style.display = match ? '' : 'none';
+      if(match) shown++;
+    });
+    toast(f === 'all' ? '已显示全部内容' : '已筛选「' + f + '」共 ' + shown + ' 条');
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('xv-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480){
+      topBtn.classList.add('xv-show');
+    }else{
+      topBtn.classList.remove('xv-show');
+    }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  /* 数字滚动 */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    counted = true;
+    document.querySelectorAll('[data-xv-count]').forEach(function(el){
+      var target = parseInt(el.getAttribute('data-xv-count'),10);
+      var suffix = el.textContent.indexOf('%') > -1 ? '%' : (el.textContent.indexOf('+') > -1 ? '+' : '');
+      var start = null;
+      var dur = 1200;
+      function step(ts){
+        if(!start) start = ts;
+        var p = Math.min((ts - start) / dur, 1);
+        var val = Math.floor(target * p);
+        el.textContent = val.toLocaleString('en-US') + suffix;
+        if(p < 1) requestAnimationFrame(step);
+        else el.textContent = target.toLocaleString('en-US') + suffix;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  var hero = document.querySelector('.xv-hero');
+  if('IntersectionObserver' in window && hero){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting) runCount();
+      });
+    }, {threshold:0.3});
+    io.observe(hero);
+  }else{
+    runCount();
+  }
+})();
+</script>
+</body>
+      </html>
